@@ -1,0 +1,63 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### codex ###
+.agents/
+### claude ###
+.claude/
+CLAUDE.md
+### for testing ###
+tokens.csv
+
+### LOG ###
+*.log
+
+
+.git.bak/
+*.class
+*.jar
+*.war
+*.ear
+*.jmx
+application-local.yaml
+application-dev.yaml
+application-prod.yaml
+
+### frontend nginx package ###
+frontend/nginx-heimadianping/**
+!frontend/nginx-heimadianping/html/
+!frontend/nginx-heimadianping/html/hmdp/
+!frontend/nginx-heimadianping/html/hmdp/**
+frontend/nginx-heimadianping/html/hmdp/imgs/blogs/
+
